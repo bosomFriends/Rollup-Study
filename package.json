@@ -1,0 +1,26 @@
+{
+  "name": "Rollup-Study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rollup.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "roolup --config roll.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bosomFriends/Rollup-Study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bosomFriends/Rollup-Study/issues"
+  },
+  "homepage": "https://github.com/bosomFriends/Rollup-Study#readme",
+  "dependencies": {
+    "rollup": "^2.44.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
